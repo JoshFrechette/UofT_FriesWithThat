@@ -8,5 +8,6 @@ USE resto_db;
 CREATE TABLE burger (
     id int AUTO_INCREMENT NOT NULL,
     choice TEXT NOT NULL,
+    devoured BOOLEAN DEFAULT false,
     PRIMARY KEY (id)
 );
