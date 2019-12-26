@@ -1,1 +1,21 @@
-/* add your css here */
+body {
+    color: #f5c93b;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    color: #ffffff;
+    background-color: blue;
+}
+
+button, p, h1 {
+    font: helvetica, sans-serif;
+}
+
