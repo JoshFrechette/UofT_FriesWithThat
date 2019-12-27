@@ -27,8 +27,8 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#ca").val().trim(),
-        devoured: $("[choice=devoured]:checked").val().trim()
+        name: $("#burgs").val().trim(),
+        devoured: false
       };
   
       // Add a new burger and send the POST request.
@@ -37,7 +37,6 @@ $(function() {
         data: newBurger
       }).then(
         function() {
-          console.log("created new cat");
           // Reload the page to get the updated list
           location.reload();
         }

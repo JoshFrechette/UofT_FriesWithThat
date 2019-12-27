@@ -1,5 +1,5 @@
-body {
-    color: #f5c93b;
+body{
+    background-color: #f5c93b;
 }
 
 p {
@@ -10,12 +10,15 @@ h1 {
     color: red;
 }
 
-button {
-    color: #ffffff;
-    background-color: blue;
-}
-
-button, p, h1 {
+p, h1 {
     font: helvetica, sans-serif;
 }
 
+.input {
+    position: justified;
+}
+
+li {
+    text-decoration: none;
+    background-color: #ffffff;
+}
