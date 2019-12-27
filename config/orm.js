@@ -81,4 +81,3 @@ create: function(table, cols, vals, cb) {
 // Export the orm object for the model (burger.js).
 module.exports = orm;
 
-}
