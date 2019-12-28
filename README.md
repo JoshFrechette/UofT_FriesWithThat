@@ -21,6 +21,12 @@ https://github.com/TwistedPixels/Fries_With_That.git
 
 # Usage
 
+![Fries With That App](documentation/fries_with_that.png)
+
+# Portfolio
+
+https://twistedpixels.github.io/ProfessionalPortfolio/
+
 # License
 
 MIT License
