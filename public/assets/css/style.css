@@ -27,11 +27,17 @@ ol {
 }
 
 li {
+    padding: .5rem 1rem .5rem 1rem !important;
     text-align: left;
     list-style: none;
     background-color: #ffffff;
 }
 
 button {
+    margin-top: 1rem !important;
     box-align: right !important;
+}
+
+.devoured {
+    color: #c2c2c2;
 }

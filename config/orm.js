@@ -1,6 +1,3 @@
-// Here is the O.R.M. where you write functions that takes inputs and conditions
-// and turns them into database commands like SQL.
-
 var connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
@@ -57,7 +54,7 @@ var orm = {
       cb(result);
     });
   },
-  // An example of objColVals would be {name: panther, sleepy: true}
+
   update: function (table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
