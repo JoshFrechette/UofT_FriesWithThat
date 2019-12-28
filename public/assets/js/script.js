@@ -6,12 +6,12 @@ $(function() {
       var newEat = $(this).data("newBurger");
   
       var newEatState = {
-        devoured: newEat
+        devoured: true
       };
   
       // Update the burger state to "devoured"
       $.ajax("/api/burger/" + id, {
-        type: "UPDATE",
+        type: "PUT",
         data: newEatState
       }).then(
         function() {
@@ -27,7 +27,7 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        name: $("#burgs").val().trim(),
+        choice: $("#burgs").val().trim(),
         devoured: false
       };
   

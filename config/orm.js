@@ -17,7 +17,7 @@ function objToSQL(ob) {
   for (var key in ob) {
     var value = ob[key];
     if (Object.hasOwnProperty.call(ob, key)) {
-      if (typeof value === "string" && value.indexOf("") >= 0) {
+      if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
 
       }
@@ -35,7 +35,6 @@ var orm = {
         throw err;
       }
       cb(result);
-
     });
   },
   create: function (table, cols, vals, cb) {
@@ -50,7 +49,7 @@ var orm = {
 
     console.log(queryString);
 
-    connection.query(queryString, vals, function (err, result) {
+    connection.query(queryString, vals, function(err, result) {
       if (err) {
         throw err;
       }
@@ -68,7 +67,7 @@ var orm = {
     queryString += condition;
 
     console.log(queryString);
-    connection.query(queryString, function (err, result) {
+    connection.query(queryString, function(err, result) {
       if (err) {
         throw err;
       }

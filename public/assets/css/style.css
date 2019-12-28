@@ -25,8 +25,13 @@ p, h1 {
 ol {
     padding: 1rem 1rem 1rem 1rem !important;
 }
+
 li {
     text-align: left;
     list-style: none;
     background-color: #ffffff;
+}
+
+button {
+    box-align: right !important;
 }
