@@ -1,6 +1,6 @@
 <!-- Placeholder -->
 <div class="container">
-  <div class="row justify-content-md-center">
+  <div class="row d-flex justify-content-center">
     <div class="col">
       <img src="/assets/images/burger.png">
       <h1>Eat-Da-Burger!</h1>
@@ -10,26 +10,26 @@
 
   <div class="row">
     <div class="col-6 new">
-      <ul>
+      <ol>
         {{#each burger}}
         {{#unless devoured}}
         {{> burgers/burger-block eaten=false}}
         {{/unless}}
         {{/each}}
-      </ul>
+      </ol>
     </div>
 
     <div class="col-6 devoured">
-      <ul>
+      <ol>
         {{#each burger}}
         {{#if devoured}}
         {{> burgers/eaten-block eaten=true}}
         {{/if}}
         {{/each}}
-      </ul>
+      </ol>
     </div>
   </div>
-  <div class="row justify-content-md-center">
+  <div class="row d-flex justify-content-center">
     <div class="col-10 input">
       {{!-- <input class="submit-burger"  maxlength="50" type="text"> --}}
       <textarea class="burger-textarea" id="burgs" name="choice"></textarea>

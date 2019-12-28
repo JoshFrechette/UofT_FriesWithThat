@@ -1,5 +1,9 @@
-body{
-    background-color: #f5c93b;
+.container {
+    margin-top: 3rem;
+}
+body { 
+    text-align: center !important;
+    background-color: #f5c93b !important;
 }
 
 p {
@@ -18,7 +22,11 @@ p, h1 {
     position: justified;
 }
 
+ol {
+    padding: 1rem 1rem 1rem 1rem !important;
+}
 li {
-    text-decoration: none;
+    text-align: left;
+    list-style: none;
     background-color: #ffffff;
 }
