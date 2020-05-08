@@ -1,5 +1,5 @@
 <h1 align="center">Fries With That?</h1>
-<p align="center">UofT SCS Coding Bootcamp | Assignment | Lesson 13</p>
+<p align="center">UofT SCS Coding Bootcamp | Lesson 13</p>
 
 # Overview
 
