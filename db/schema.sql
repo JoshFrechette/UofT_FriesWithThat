@@ -1,13 +1,11 @@
--- create database and table schema here
-DROP DATABASE IF EXISTS resto_db;
 
-CREATE DATABASE resto_db;
- 
-USE resto_db;
+
+USE `gq36vb3sbd3kklm4`;
 
 CREATE TABLE burger (
-    id int AUTO_INCREMENT NOT NULL,
+    id INT AUTO_INCREMENT NOT NULL,
     choice TEXT NOT NULL,
     devoured BOOLEAN DEFAULT false,
-    PRIMARY KEY (id)
+	createdAt TIMESTAMP NOT NULL DEFAULT 'CURRENT_TIMESTAMP',
+    PRIMARY KEY(id)
 );
