@@ -1,8 +1,17 @@
-# Fries_With_That
-Assignment for UofT SCS Coding Bootcamp
-Week 13
+<h1 align="center">Fries With That?</h1>
+<p align="center">UofT SCS Coding Bootcamp | Assignment | Lesson 13</p>
 
-# Directions for the project
+# Overview
+
+* Fries With That?! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+* Whenever a user submits a burger's name, the app displays the burger on the left side of the page -- waiting to be devoured.
+
+* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
+
+* The app stores every burger in a database, whether devoured or not.
+
+# User Directions
 
 - The user types their choice of burger in the textbox, then presses the "submit" button.
 - After pressing the submit button, the inputted burger choice appears on the left with a "devour" button appearing beside it.
@@ -16,16 +25,16 @@ Heroku
 https://joshfdesign-fries-with-that.herokuapp.com/
 
 GitHub
-https://github.com/TwistedPixels/Fries_With_That.git
+https://github.com/JoshFrechette/Fries_With_That.git
 
 
-# Usage
+# Preview
 
 ![Fries With That App](documentation/fries_with_that.png)
 
 # Portfolio
 
-https://twistedpixels.github.io/ProfessionalPortfolio/
+https://joshfdesign-react-portfolio.herokuapp.com/
 
 # License
 
